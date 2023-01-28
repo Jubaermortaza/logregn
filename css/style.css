@@ -1,0 +1,75 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.login-box{
+	width: 400px;
+	background: #eee;
+	margin: 40px auto 0px;
+	padding: 40px;
+
+}
+.login-from{
+	width: 100%;
+}
+.avater{
+	width: 100%;
+	text-align: center;
+}
+.avater img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border-radius:  solid #000000;
+}
+.avater h1{
+	font-size: 34px;
+	line-height: 44px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.from-group{
+	width: 100%;
+	margin: 10px 0px;
+}
+.from-group .from-control{
+	padding: 10px;
+	width: 93%;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	border: 1px solid skyblue;
+	border-radius: 13px;
+}
+.btn-primary{
+	padding: 10px 50px;
+	margin: 10px 0px 0px;
+	font-size: 13px;
+	font-weight: 600px;
+	text-transform: uppercase;
+	color: black;
+	background: lightskyblue;
+	border: 1px solid black;
+	border-radius:500px;
+}
+.btn-primary:hover{
+	cursor: pointer;
+	color:white;
+	background:black;
+	border: 1px solid black;
+}	
